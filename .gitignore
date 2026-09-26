@@ -2,6 +2,10 @@
 *.exe
 *.out
 *.o
+*.stackdump
+
+# エディタのバックアップ・undoファイル
+*~
 
 # AtCoder Library(外部ライブラリのコピー。https://github.com/atcoder/ac-library から取得可能)
 atcoder/

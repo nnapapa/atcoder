@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+#include <atcoder/all>
+using namespace std;
+using namespace atcoder;
+using lll = __int128;
+using ll = long long;
+#define INFL 0x6fffffffffffffffLL
+
+int main() {
+	ll		a,b,c,d,h,i,j,k,l,m,n,t,q,r,v,w,x,y,z;
+	ll		ans = 0;
+	string	s;
+	cin >> n;
+	map<ll,set<ll>>	XY;
+	vector<ll> A;
+	for(i=0;i<n;i++) {
+		cin >> x >> y;
+		XY[x].insert(y);
+	}
+	for(auto i : XY) for(auto j : XY) {
+		if (i.first>=j.first) continue;
+		c = -1; t = 0;
+		for(auto y : XY[i.first]) {
+			if (XY[j.first].count(y)) { c++; t += c; }
+		}
+		ans += t;
+	}
+	//vector<ll>	dp(n+1,INFL);
+	//vector<vector<ll>>	dp2(x , vector<ll>(y,INFL));
+
+	cout << ans << endl;
+	return 0;
+}
