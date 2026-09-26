@@ -15,7 +15,6 @@ atcoder/
 ├── 2025/
 ├── 2026/
 ├── codeforces/  Codeforcesの提出コード
-├── paiza/       paizaの提出コード
 └── tenkei90/    競プロ典型90問の解答・解説PDF
 ```
 
