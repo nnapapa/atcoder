@@ -4,7 +4,6 @@ using namespace std;
 using namespace atcoder;
 using lll = __int128;
 using ll = long long;
-#define INFL 0x6fffffffffffffffLL
 
 
 int main() {
