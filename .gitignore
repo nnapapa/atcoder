@@ -1,0 +1,10 @@
+# コンパイル成果物
+*.exe
+*.out
+*.o
+
+# AtCoder Library(外部ライブラリのコピー。https://github.com/atcoder/ac-library から取得可能)
+atcoder/
+
+# 一時ファイル・実行結果メモ
+kekka
