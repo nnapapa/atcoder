@@ -10,7 +10,6 @@ using ll = long long;
 int main() {
 	ll		a,b,c,d,h,i,j,k,l,m,n,t,r,u,v,w,x,y,z;
 	ll		ans = 0;
-	string	s;
 	cin >> n;
 	vector<ll> S(n+1,0);
 	vector<vector<ll>> C(n+1);
