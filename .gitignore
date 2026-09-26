@@ -12,3 +12,7 @@ atcoder/
 
 # 一時ファイル・実行結果メモ
 kekka
+
+# エディタ設定・個人的な証明書ファイル
+.vscode/
+certificate.pdf
